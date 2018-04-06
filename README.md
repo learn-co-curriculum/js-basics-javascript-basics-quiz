@@ -4,8 +4,6 @@
 
 JavaScript Basics Quiz
 
-Variables
-
 ?: If we declare a variable, `let test = 1`, then later, reassign, stating `test = 2`, what will happen?
 
 (X) `test` will equal `2` ( ) `test` will equal `1` ( ) JavaScript will raise a TypeError ( ) `test` will equal `undefined`
@@ -18,9 +16,6 @@ Variables
 
 ( ) both variables will be declared (X) JavaScript will raise a SyntaxError ( ) `var test` will reassign `let test` ( ) `var test` will be ignored as `test` is already declared
 
-?: If we declare a variable, `var test = 1`, then later, reassign, stating `var test = 2`, what will happen?
-
-( ) both variables will be declared ( ) JavaScript will raise a SyntaxError (X) `var test = 2` will reassign `var test = 1` ( ) `var test` will be ignored as `test` is already declared
 
 ?: If we declare a variable, `var test = 1`, then later, reassign, stating `var test = 2`, what will happen?
 
@@ -29,8 +24,6 @@ Variables
 ?: What are the main differences between `let` and `const`?
 
 (X) `let` can be reassigned, `const` cannot be reassigned ( ) `let` cannot be reassigned, `const` can be reassigned ( ) `let` is functional scope, while `const` is block scope ( ) `let` is block scope, while `const` is functional scope
-
-Comparisons
 
 ?: The `!=` and `!==` symbols both work the same for inequality comparisons:
 
@@ -55,8 +48,6 @@ Comparisons
 ?: The expression `8 == "8"` evaluates to:
 
 (X) True ( ) False
-
-Conditionals
 
 ?: What will the return value of the following expression be?
 
@@ -129,8 +120,6 @@ if (0 > 5) {
 ```
 
 (X) `"hello"` ( ) `"world"` ( ) `undefined` ( ) `null`
-
-Functions
 
 ?: What will be the value of `result` when this code is run and the function, `quizFunction`, is called with the input of `5`?
 
