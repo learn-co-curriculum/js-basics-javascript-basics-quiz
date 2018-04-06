@@ -4,8 +4,6 @@
 
 JavaScript Basics Quiz
 
-**Note:** Remember that you can always test variables, comparison, conditionals and functions in the browser console!
-
 Variables
 
 ?: If we declare a variable, `let test = 1`, then later, reassign, stating `test = 2`, what will happen?
@@ -25,6 +23,7 @@ Variables
 ( ) both variables will be declared ( ) JavaScript will raise a SyntaxError (X) `var test = 2` will reassign `var test = 1` ( ) `var test` will be ignored as `test` is already declared
 
 ?: What are the main differences between `let` and `const`?
+
 (X) `let` can be reassigned, `const` cannot be reassigned ( ) `let` cannot be reassigned, `const` can be reassigned ( ) `let` is functional scope, while `const` is block scope ( ) `let` is block scope, while `const` is functional scope
 
 Comparisons
