@@ -18,11 +18,11 @@ Variables
 
 ?: If we declare a variable, `let test = 1`, then later, reassign, stating `var test = 2`, what will happen?
 
-( ) both variables will be declared (X) JavaScript will raise a SyntaxError ( ) `var test` will reassign `let test` ( ) `var test` will be ignored as `test is already declared`
+( ) both variables will be declared (X) JavaScript will raise a SyntaxError ( ) `var test` will reassign `let test` ( ) `var test` will be ignored as `test` is already declared
 
 ?: If we declare a variable, `var test = 1`, then later, reassign, stating `var test = 2`, what will happen?
 
-( ) both variables will be declared ( ) JavaScript will raise a SyntaxError (X) `var test = 2` will reassign `var test = 1` ( ) `var test` will be ignored as `test is already declared`
+( ) both variables will be declared ( ) JavaScript will raise a SyntaxError (X) `var test = 2` will reassign `var test = 1` ( ) `var test` will be ignored as `test` is already declared
 
 ?: What are the main differences between `let` and `const`?
 (X) `let` can be reassigned, `const` cannot be reassigned ( ) `let` cannot be reassigned, `const` can be reassigned ( ) `let` is functional scope, while `const` is block scope ( ) `let` is block scope, while `const` is functional scope
@@ -37,7 +37,7 @@ Comparisons
 
 ( ) `=` ( ) `==` (X) `===`
 
-?: The expression `8 >= 7` evaluates to:
+?: The expression `8 >= 8` evaluates to:
 
 (X) True ( ) False
 
@@ -83,7 +83,7 @@ if !(10 > 5) {
 
 ```js
 let str = "hello"
-if !!str {
+if (!!str) {
   return true;
 } else {
   return false;
@@ -121,7 +121,7 @@ if (typeof NaN) {
 ```js
 let str = "hello"
 if (0 > 5) {
-  string = "world"
+  str = "world"
 }
 ```
 
@@ -166,7 +166,7 @@ function quizFunction(argument) {
 const result = quizFunction(10);
 ```
 
-( ) `argument < 5` (X) `true` ( ) `10` ( ) `false`
+( ) `argument < 5` ( ) `true` ( ) `10` (X) `false`
 
 ?: What will be the value of `result` when this code is run and called with the input of `5`?
 
