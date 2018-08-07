@@ -12,7 +12,7 @@ JavaScript Basics Quiz
 
 ( ) `test` will equal `2` ( ) `test` will equal `1` (X) JavaScript will raise a TypeError ( ) `test` will equal `undefined`
 
-?: If we declare a variable, `let test = 1`, then later, reassign, stating `var test = 2`, what will happen?
+?: If we declare a variable, `let test = 1`, then later, reassign, stating `var test = 2`, what will happen if both are in the same scope?
 
 ( ) both variables will be declared (X) JavaScript will raise a SyntaxError ( ) `var test` will reassign `let test` ( ) `var test` will be ignored as `test` is already declared
 
